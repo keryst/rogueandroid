@@ -1,0 +1,24 @@
+<rogueandroid.cs428.sp10.Character>
+  <mDisplay class="rogueandroid.cs428.sp10.DisplayMock">
+    <mLocation>
+      <mX>192</mX>
+      <mY>192</mY>
+    </mLocation>
+  </mDisplay>
+  <mPixelDestination>
+    <mX>192</mX>
+    <mY>192</mY>
+  </mPixelDestination>
+  <mPixelLocation reference="../mDisplay/mLocation"/>
+  <mTileDestination>
+    <mX>2</mX>
+    <mY>2</mY>
+  </mTileDestination>
+  <mTileLocation reference="../mTileDestination"/>
+  <mPixelStep>
+    <mX>192</mX>
+    <mY>192</mY>
+  </mPixelStep>
+  <characterClass>Mage</characterClass>
+  <characterName>Josh</characterName>
+</rogueandroid.cs428.sp10.Character>
