@@ -1,0 +1,24 @@
+<rogueandroid>
+	<screen xpixels="854" ypixels="480"></screen>
+	<tiles size="96"></tiles>
+	<items>
+		<!-- classes 0=Armor 1=Weapon 2=Potion 3=Scroll -->
+	    <!--        class, name,               weight, attack, defense, HP, resource -->
+		<item char="0,     shield of scrum,    10,     0,      20,      0,  graphics/sprites/shield.png"></item>
+		<item char="0,     helmet of hard,      5,     0,      5,       0,  graphics/sprites/helmet.png"></item>
+		<item char="1,     sword of burndown,  20,     30,     0,       0,  graphics/sprites/sword.png"></item>
+		<item char="2,     potion of health,    1,     0,      0,      100,  graphics/sprites/potion.png"></item>
+		<item char="3,     scroll of allnighter,1,     30,     0,       0,  graphics/sprites/scroll.png"></item>		
+	</items>
+	<monsters>
+	    <!--           name,   attack, defense, maxhit, speed, resource -->
+		<monster char="orc,    5,      5,       5,      5,     graphics/sprites/orc.png"></monster>
+		<monster char="rat,    0,      0,       1,      10,    graphics/sprites/dragon.png"></monster>
+		<monster char="dragon, 10,     10,      20,     2,     graphics/sprites/dragon.png"></monster>
+		<monster char="boss, 30,     20,      40,     2,     graphics/sprites/dragon.png"></monster>
+	</monsters>
+	<dungeontextures>
+		<dungeontexture graphic="graphics/sprites/se_free_grass_texture.bmp"></dungeontexture>
+		<dungeontexture graphic="graphics/sprites/se_free_road_texture.bmp"></dungeontexture>	
+	</dungeontextures>
+</rogueandroid>
